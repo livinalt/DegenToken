@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require('dotenv').config();
 
-const FORK_FUJI = false;
+const FORK_FUJI = true;
 const FORK_MAINNET = false;
 let forkingData = undefined;
 
@@ -18,7 +18,15 @@ if (FORK_FUJI) {
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.18",
+  solidity: {
+    compilers: [
+      {
+         version: "0.8.18",
+       },
+       {
+          version: "0.8.20",
+       },
+      ]},
   networks: {
     hardhat: {
       gasPrice: 225000000000,

@@ -126,10 +126,7 @@ For help check [Guide.md] for detailed instructions
 ## Authors
 
 Jeremiah Samuel
-
 livinalt@gmail.com
-https://twitter.com/jeremiahdsamuel
-
 
 ## License
 

@@ -62,7 +62,7 @@ function getBalance() external view returns (uint256){
 
 ```
 
-#### Burning Tokens
+### Burning Tokens
 Anyone can burn tokens that they own but no longer need, using the burnTokens function.
 
 ```solidity

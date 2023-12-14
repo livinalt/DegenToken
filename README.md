@@ -115,15 +115,13 @@ npm install @openzeppelin/contracts
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
+* Run to deploy your contract
+```bash
+$ npx hardhat run scripts/deploy.js --network fuji
 ```
 
 ## Help
-
-
+For help check [Guide.md] for detailed instructions 
 
 ## Authors
 
